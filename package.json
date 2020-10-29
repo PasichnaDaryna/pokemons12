@@ -19,11 +19,12 @@
   "bugs": {
     "url": "https://github.com/PasichnaDaryna/pokemons12/issues"
   },
-  "homepage": "https://github.com/PasichnaDaryna/pokemons12#readme",
+  "homepage": "https://pasichnadaryna.github.io/pokemons12/",
   "devDependencies": {
     "parcel-bundler": "^1.12.4"
   },
   "dependencies": {
+    "gh-pages": "^3.1.0",
     "parcel-plugin-handlebars-precompile": "^1.0.2"
   }
 }
