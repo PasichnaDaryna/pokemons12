@@ -1,0 +1,29 @@
+{
+  "name": "pokemons12",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "predeploy": "npm run build -- --public-url=/pokemons12/",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PasichnaDaryna/pokemons12.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PasichnaDaryna/pokemons12/issues"
+  },
+  "homepage": "https://github.com/PasichnaDaryna/pokemons12#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "parcel-plugin-handlebars-precompile": "^1.0.2"
+  }
+}
